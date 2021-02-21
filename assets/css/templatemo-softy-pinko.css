@@ -548,11 +548,11 @@ header
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 5px;
+  margin-top: -23px;
 }
 
 .header-area.header-sticky .nav {
-  margin-top: 20px !important;
+  margin-top: -82px !important;
 }
 
 .header-area.header-sticky .nav li a {
@@ -845,7 +845,7 @@ parallax & home seperator
   overflow: hidden;
   position: relative;
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 315px;
 }
 
 .mini:before {
@@ -911,14 +911,16 @@ parallax & home seperator
   text-decoration: underline;
 }
 
+
 .mini .mini-content .mini-box {
   display: block;
   background: #fff;
-  padding: 20px;
+  padding: 30px;
+  padding-bottom: 20px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
-  position: relative;
+  position: absolute;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -945,9 +947,14 @@ parallax & home seperator
   border-radius: 20px;
 }
 
+.mini .mini-content .mini-box img{
+  position: initial;
+  padding-top: -15px;
+}
+
 .mini .mini-content .mini-box i {
   display: block;
-  font-size: 20px;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 
